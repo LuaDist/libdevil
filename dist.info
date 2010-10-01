@@ -1,0 +1,22 @@
+--- This file is part of LuaDist project
+
+name = "libdevil"
+version = "1.7.8"
+
+desc = "Developer's Image Library (DevIL) is a programmer's library to develop applications with very powerful image loading capabilities, yet is easy for a developer to learn and use."
+author = "Denton Woods, Nicolas Weber, Meloni Dario"
+license = "LGPL"
+url = ""
+maintainer = "Peter Kapec"
+
+source = "http://openil.sourceforge.net/"
+
+depends = {
+	"jpeg >= 7",
+	"lcms >= 1.17",
+	"libmng >= 1.0.10",
+	"libpng >= 1.2.39",	
+	"libtiff >= 3.8.2",	
+	"zlib >= 1.2.3",	
+	"libsdl >= 1.2",	
+}
