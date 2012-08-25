@@ -6,10 +6,8 @@ version = "1.7.8"
 desc = "Developer's Image Library (DevIL) is a programmer's library to develop applications with very powerful image loading capabilities, yet is easy for a developer to learn and use."
 author = "Denton Woods, Nicolas Weber, Meloni Dario"
 license = "LGPL"
-url = ""
 maintainer = "Peter Kapec"
-
-source = "http://openil.sourceforge.net/"
+url = "http://openil.sourceforge.net/"
 
 depends = {
 	"jpeg >= 7",
